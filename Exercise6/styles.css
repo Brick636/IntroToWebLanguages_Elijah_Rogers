@@ -1,0 +1,16 @@
+/* stylesheets allow changing of the style in a linked html file
+/* allows changing the style of the body */
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blueviolet;
+}
+
+/* #main-title calls the id of the header */
+#main-title { 
+    text-align: center;
+}
+
+/* .content is the class for the paragraphs */
+p.content {
+    margin-bottom: 12px;  
+}
