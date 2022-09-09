@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Exercise7</title>
+    </head>
+    <body>
+        <input id="name-input" type="text" placeholder="Enter your name" />
+        <button id="my-button">Click Me</button>
+
+        <script>
+            /* Setting variable of mybutton that links to ID my-button in the body */
+            var myButton = document.querySelector('#my-button');
+            /* Setting a variable of nameInput that links to the ID name-input in body */
+            var nameInput = document.querySelector('#name-input');
+
+            /* Variable myButton calls the addEventListener function that runs a function with a click. */
+            myButton.addEventListener('click', function () {
+            /* If statement checks the value of nameInput to make sure it is not empty */
+                if (nameInput.value !== '') {
+            /* If the value of nameInput is not empty create a pop-up that prints Hello + the nameInput value */
+                    alert('Hello ' + nameInput.value);
+                }
+            });
+        </script>
+    </body>
+</html>
