@@ -11,6 +11,6 @@ body {
 }
 
 /* .content is the class for the paragraphs */
-p.content {
+.content {
     margin-bottom: 12px;  
 }
